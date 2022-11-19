@@ -4,64 +4,23 @@ using namespace std;
 
 int main()
 {
-    //assignment operator
+    cout << "Hello world!" << endl;
 
+    int i = 0;
 
-    int a = 10;
-    int b = 20;
+    //for loop
 
-    ++a;
-    --b;
+    for (int i = 0; i < 11; i++){
+        cout<<i<<"\n";
 
+    }
 
-    cout<<"addition"<<endl<<a+b;
-    cout<<"subtraction"<<endl<<a-b;
-    cout<<"Multiplication"<<endl<<a*b;
-    cout<<"division"<<endl<<a/b;
-    cout<<"modulus"<<endl<<a%b;
-    cout<<"increment"<<endl<<a;
-    cout<<"decrement"<<endl<<b;
+    // while loop
 
-
-
-    //assignment operator
-
-    int x = 100;
-    x += 5;
-    cout<<endl<<x;
-
-    x -= 2;
-    cout<<endl<<x;
-
-    x *= 4;
-    cout<<endl<<x;
-
-    x /= 2;
-    cout<<endl<<x;
-
-    x %= 3;
-    cout<<endl<<x;
-
-
-
-    // comparison operator
-
-    int c = 10;
-    int d = 15;
-
-    cout<<endl<<(c == d);
-    cout<<endl<<(c != d);
-    cout<<endl<<(c < d);
-    cout<<endl<<(c > d);
-    cout<<endl<<(c >= d);
-    cout<<endl<<(c <= d);
-
-    //logical operator
-
-    cout<<endl<<(c > 5 && d < 10);
-    cout<<endl<<(c > 5 || d > 20);
-    cout<<endl<<!(c < 10 && d > 20);
-
+    while (i < 11) {
+        cout<<i<<"\n";
+        i++;
+    }
 
     return 0;
 }
